@@ -182,9 +182,6 @@ python-jsonrpc-server==0.3.4
 python-language-server==0.34.1
 pytz==2020.1
 PyWavelets==1.1.1
-pywin32==227
-pywin32-ctypes==0.2.0
-pywinpty==0.5.7
 PyYAML==5.3.1
 pyzmq==19.0.1
 QDarkStyle==2.8.1
@@ -205,7 +202,6 @@ scikit-learn==0.23.1
 scipy==1.5.0
 seaborn==0.10.1
 Send2Trash==1.5.0
-setuptools==49.2.0.post20200714
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
 sip==4.19.13
