@@ -35,10 +35,6 @@ clyent==1.2.1
 colorama==0.4.4
 colorlover==0.3.0
 comtypes==1.1.7
-conda==4.8.3
-conda-build==3.18.11
-conda-package-handling==1.7.0
-conda-verify==3.4.2
 contextlib2==0.6.0.post1
 cryptography==2.9.2
 cufflinks==0.17.3
@@ -51,8 +47,6 @@ defusedxml==0.6.0
 diff-match-patch==20200713
 distlib==0.3.4
 distributed==2.20.0
-Django==3.2.7
-django-cors-headers==3.11.0
 dnspython==1.16.0
 docutils==0.16
 entrypoints==0.3
