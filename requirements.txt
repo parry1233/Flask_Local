@@ -123,7 +123,7 @@ more-itertools==8.4.0
 mpmath==1.1.0
 nltk==3.5
 numexpr==2.7.1
-numpy==1.19.5
+numpy
 numpydoc==1.1.0
 oauthlib==3.1.0
 olefile==0.46
