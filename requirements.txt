@@ -31,7 +31,7 @@ chardet==3.0.4
 ckiptagger==0.2.1
 click==7.1.2
 cloudpickle==1.5.0
-clyent==1.2.2
+clyent==1.2.1
 colorama==0.4.4
 colorlover==0.3.0
 comtypes==1.1.7
