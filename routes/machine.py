@@ -38,7 +38,8 @@ def predict():
             'status': status
         }
     ])
-    
+
+'''
 @routes.route("/MCNN",methods=['POST'])
 def mcnn():
     #sid = request.get_json()['sid']
@@ -50,4 +51,4 @@ def mcnn():
             'data': data
         }
     ])
-    
+'''
