@@ -243,6 +243,5 @@ wordcloud==1.8.1
 wrapt==1.12.1
 xlrd==1.2.0
 XlsxWriter==1.2.9
-xlwings==0.19.5
 xlwt==1.3.0
 xmltodict==0.12.0
