@@ -1,7 +1,7 @@
 Flask==1.1.2
 imutils==0.5.4
 matplotlib==3.2.2
-numpy==1.18.5
+numpy==1.20
 opencv_python==4.5.1.48
 pandas==1.4.1
 pandas_datareader==0.10.0
