@@ -113,7 +113,7 @@ class PredictStock:
         predicted_prices = model.predict(x_test)
         predicted_prices = scaler.inverse_transform(predicted_prices)
         
-        model.save('machineLearning/saved_model/'+code.replace('.','_'))
+        #model.save('machineLearning/saved_model/'+code.replace('.','_'))
         
         self.model = model
         self.model_inputs = model_inputs
