@@ -10,6 +10,7 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, LSTM
 import tensorflow as tf
+from tensorflow.compat.v1 import ConfigProto, InteractiveSession
 
 class PredictStock:
     
@@ -18,7 +19,11 @@ class PredictStock:
         self.end = dt.datetime(2022,1,1)
         
     def train(self, code):
-        sess = tf.compat.v1.Session(config=tf.compat.v1.ConfigProto(log_device_placement=True))
+        
+        '''#! follow code(line 135 - line 137) is to fix the error of tensorflow gpu "tensorflow.python.framework.errors_impl.NotFoundError:  No algorithm worked!" '''
+        config = ConfigProto()
+        config.gpu_options.allow_growth = True
+        session = InteractiveSession(config=config)
         #TODO: Load Data
         company = code
         
