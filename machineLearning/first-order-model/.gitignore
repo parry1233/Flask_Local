@@ -4,4 +4,4 @@ __pycache__
 driving_video/*
 fom_checkpoints/*
 source_image/*
-result.mp4
+results/*
