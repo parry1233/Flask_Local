@@ -1,0 +1,7 @@
+/.vscode
+__pycache__
+/venv
+driving_video/*
+fom_checkpoints/*
+source_image/*
+result.mp4

@@ -1,0 +1,4 @@
+python demo.py --config config/vox-adv-256.yaml --driving_video driving_video/crop.mp4 --source_image source_image/stli.jpg --checkpoint fom_checkpoints/vox-adv-cpk.pth.tar --relative --adapt_scale
+
+Tutorial:
+https://www.youtube.com/watch?v=ICvNnrWKHmc&t=274s
